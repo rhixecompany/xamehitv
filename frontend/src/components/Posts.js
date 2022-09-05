@@ -12,8 +12,8 @@ const Posts = ({ posts, loading }) => {
         {posts.map((post) => (
           <li key={post._id} className="list-group-item">
             <Link to={`/movies/${post._id}`}>
+              <h3>{post.title}</h3>
               <img src={post.image} alt={post.image} />
-              {post.title}
             </Link>
           </li>
         ))}

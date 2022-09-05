@@ -30,7 +30,7 @@ const Homepage = () => {
 
   return (
     <div className="container mt-5">
-      <h1 className="text-primary mb-3">My Blog</h1>
+      <h1 className="text-primary mb-3">Movies</h1>
       <Posts posts={currentPosts} loading={loading} />
       <Pagination
         postsPerPage={postsPerPage}
