@@ -1,25 +1,29 @@
-import "./App.css";
-import { BrowserRouter as Router, Route } from "react-router-dom";
-import Header from "./components/ui/Header";
-import HomePage from "./pages/HomePage";
-import LoginPage from "./pages/LoginPage";
-import RegisterPage from "./pages/RegisterPage";
-import MoviesListPage from "./pages/MoviesListPage";
-import MoviePage from "./pages/MoviePage";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+import Header from "./components/Header";
+import Dashboard from "./pages/Dashboard";
+import Home from "./pages/Home";
+import Login from "./pages/Login";
+import Register from "./pages/Register";
 
-const App = () => {
+function App() {
   return (
-    <Router>
-      <div>
-        <Header />
-        <Route path="/" component={HomePage} exact />
-        <Route path="/login" component={LoginPage} exact />
-        <Route path="/register" component={RegisterPage} exact />
-        <Route path="/movies" component={MoviesListPage} exact />
-        <Route path="/movies/:id" component={MoviePage} />
-      </div>
-    </Router>
+    <>
+      <Router>
+        <div className="container">
+          <Header />
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/dashboard" element={<Dashboard />} />
+            <Route path="/login" element={<Login />} />
+            <Route path="/register" element={<Register />} />
+          </Routes>
+        </div>
+      </Router>
+      <ToastContainer />
+    </>
   );
-};
+}
 
 export default App;

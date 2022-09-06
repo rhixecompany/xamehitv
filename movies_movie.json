@@ -1,0 +1,86 @@
+[
+    {
+        "created_at": "2019-08-19 21:00:00",
+        "director": "James Gunn",
+        "genre": "Action, Adventure, Comedy, Sci-Fi",
+        "id": 1,
+        "plot": "James Gunn, Dan Abnett (based on the Marvel comics by), Andy Lanning (based on the Marvel comics by), Steve Englehart (Star-Lord created by), Steve Gan (Star-Lord created by), Jim Starlin (Gamora and Drax created by), Stan Lee (Groot created by), Larry Lieber (Groot created by), Jack Kirby (Groot created by), Bill Mantlo (Rocket Raccoon created by), Keith Giffen (Rocket Raccoon created by), Steve Gerber (Howard the Duck created by), Val Mayerik (Howard the Duck created by)",
+        "rated": "PG-13",
+        "released_on": "2017-05-05",
+        "title": "Guardians of the Galaxy Vol. 2",
+        "updated_at": "2019-08-19 21:00:00",
+        "year": 2017
+    },
+    {
+        "created_at": "2019-08-19 21:00:00",
+        "director": "Christopher Nolan",
+        "genre": "Adventure, Drama, Sci-Fi",
+        "id": 2,
+        "plot": "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.",
+        "rated": "PG-13",
+        "released_on": "2014-11-07",
+        "title": "Interstellar",
+        "updated_at": "2019-08-19 21:00:00",
+        "year": 2014
+    },
+    {
+        "created_at": "2019-08-19 21:00:00",
+        "director": "Anthony Russo, Joe Russo",
+        "genre": "Action, Adventure, Sci-Fi",
+        "id": 3,
+        "plot": "After the devastating events of Avengers: Infinity War (2018), the universe is in ruins. With the help of remaining allies, the Avengers assemble once more in order to reverse Thanos' actions and restore balance to the universe.",
+        "rated": "PG-13",
+        "released_on": "2019-04-26",
+        "title": "Avengers: Endgame",
+        "updated_at": "2019-08-19 21:00:00",
+        "year": 2019
+    },
+    {
+        "created_at": "2019-08-19 21:00:00",
+        "director": "Josh Cooley",
+        "genre": "Animation, Adventure, Comedy, Family, Fantasy",
+        "id": 4,
+        "plot": "When a new toy called \"Forky\" joins Woody and the gang, a road trip alongside old and new friends reveals how big the world can be for a toy.",
+        "rated": "PG-13",
+        "released_on": "2019-06-21",
+        "title": "Toy Story 4",
+        "updated_at": "2019-08-19 21:00:00",
+        "year": 2019
+    },
+    {
+        "created_at": "2019-08-19 21:00:00",
+        "director": "J.J. Abrams",
+        "genre": "Action, Adventure, Fantasy, Sci-Fi",
+        "id": 5,
+        "plot": "The surviving Resistance faces the First Order once more in the final chapter of the Skywalker saga.",
+        "rated": "PG-13",
+        "released_on": "2019-12-20",
+        "title": "Star Wars: The Rise of Skywalker",
+        "updated_at": "2019-08-19 21:00:00",
+        "year": 2019
+    },
+    {
+        "created_at": "2019-08-19 21:00:00",
+        "director": "Anna Boden, Ryan Fleck",
+        "genre": "Action, Adventure, Sci-Fi",
+        "id": 6,
+        "plot": "Carol Danvers becomes one of the universe's most powerful heroes when Earth is caught in the middle of a galactic war between two alien races.",
+        "rated": "PG-13",
+        "released_on": "2019-03-08",
+        "title": "Captain Marvel",
+        "updated_at": "2019-08-19 21:00:00",
+        "year": 2019
+    },
+    {
+        "created_at": "2019-08-19 21:00:00",
+        "director": "Jon Watts",
+        "genre": "Action, Adventure, Sci-Fi",
+        "id": 7,
+        "plot": "Following the events of Avengers: Endgame (2019), Spider-Man must step up to take on new threats in a world that has changed forever.",
+        "rated": "PG-13",
+        "released_on": "2019-07-02",
+        "title": "Spider-Man: Far From Home",
+        "updated_at": "2019-08-19 21:00:00",
+        "year": 2019
+    }
+]
