@@ -1,9 +1,13 @@
 import React from "react";
+import MovieItem from "../components/MovieItem";
+import MovieForm from "../components/MovieForm";
 
 const Dashboard = () => {
+  const movie = [];
   return (
     <div>
-      <h2>Dashboard</h2>
+      <MovieItem movie={movie} />
+      <MovieForm />
     </div>
   );
 };

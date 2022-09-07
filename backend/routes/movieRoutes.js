@@ -9,9 +9,15 @@ const {
   deleteMovie,
 } = require("../controllers/movieController");
 
-router.route("/load").get(loadMovies);
+const { protect } = require("../middleware/authMiddleware");
 
-router.route("/").get(getMovies).post(addMovie);
-router.route("/:id").get(getMovie).put(updateMovie).delete(deleteMovie);
+router.route("/load").get(protect, loadMovies);
+
+router.route("/").get(getMovies).post(protect, addMovie);
+router
+  .route("/:id")
+  .get(getMovie)
+  .put(protect, updateMovie)
+  .delete(protect, deleteMovie);
 
 module.exports = router;

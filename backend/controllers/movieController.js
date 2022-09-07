@@ -20,7 +20,7 @@ const getMovies = asyncHandler(async (req, res) => {
 // @route GET /api/movies
 // @access Private
 const loadMovies = asyncHandler(async (req, res) => {
-  const movies = await Movie.find();
+  const movies = await Movie.find({ user: req.user.id });
   axios(url)
     .then((response) => {
       const html = response.data;
@@ -32,6 +32,7 @@ const loadMovies = asyncHandler(async (req, res) => {
         const movies = Movie.create({
           title,
           image,
+          user: req.user.id,
         });
       });
       res.status(200).json(movies);
@@ -50,6 +51,7 @@ const addMovie = asyncHandler(async (req, res) => {
 
   const movie = await Movie.create({
     title: req.body.title,
+    user: req.user.id,
   });
 
   res.status(200).json(movie);
