@@ -20,7 +20,7 @@
     "build": "npm run build --prefix frontend",
     "server": "nodemon backend/server",
     "dev": "concurrently \"npm run server\" \"npm run start\"",
-    "deploy": "concurrently \"npm run server\" \"serve -s frontend/build\""
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install && npm install --prefix frontend && npm run build --prefix frontend"
   },
   "eslintConfig": {
     "extends": [
