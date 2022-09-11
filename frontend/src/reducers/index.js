@@ -1,8 +1,9 @@
 import { combineReducers } from "redux";
-import movies from "./movies";
+
 import authReducer from "../features/auth/authSlice";
+import movieReducer from "../features/movies/movieSlice";
 
 export default combineReducers({
-  movies,
   auth: authReducer,
+  movies: movieReducer,
 });
